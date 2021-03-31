@@ -1,0 +1,259 @@
+#lien-categories {
+    text-decoration: none;
+    color: black;
+}
+
+#lien-sujets {
+    text-decoration: none;
+    color: black;
+}
+
+#test{
+    text-shadow:-1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 10px #ffffff;color:#fff;
+}
+
+#border{
+    width: 45rem;
+    min-height: 15rem;
+    resize: none;
+    border: none
+}
+#snackbar {
+    visibility: hidden;
+    color: #fff;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    font-size: 17px;
+}
+  
+#snackbar.show {
+visibility: visible;
+-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+#snackbar.hidden {
+visibility: hidden;
+}
+
+@-webkit-keyframes fadein {
+from {bottom: 0; opacity: 0;} 
+to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+from {bottom: 0; opacity: 0;}
+to {bottom: 30px; opacity: 1;}
+}
+
+#testbis{
+    resize: none
+}
+
+#button {
+    display: inline-block;
+    background-color: #2233ff;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    width: 15%;
+    height: 8%;
+    max-width: 70px;
+    max-height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: fixed;
+    z-index: 1;
+    bottom: 20px;
+}
+#button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#button:hover {
+    background-color:  #5f5f5f;
+}
+#button:hover span {
+    padding-right: 25px;
+}
+#button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.select{
+    user-select: none;
+}
+
+.inputWidth {
+    width: 100%;
+}
+
+.images-categories{
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.modal .user-card-full {
+    overflow: hidden
+}
+
+.modal .card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    margin-bottom: 30px
+}
+
+.modal .m-r-0 {
+    margin-right: 0px
+}
+
+.modal .m-l-0 {
+    margin-left: 0px
+}
+
+.modal .user-card-full .user-profile {
+    border-radius: 5px 0 0 5px
+}
+
+.modal .bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263)
+}
+
+.modal .user-profile {
+    padding: 20px 0
+}
+
+.modal .card-block {
+    padding: 1.25rem
+}
+
+.modal .m-b-25 {
+    margin-bottom: 25px
+}
+
+.modal .img-radius {
+    border-radius: 20px;
+    width : 100px;
+    height: 100px;
+}
+
+.modal h6 {
+    font-size: 14px
+}
+
+.modal .card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.modal .card-block {
+    padding: 1.25rem
+}
+
+.modal .b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.modal .m-b-20 {
+    margin-bottom: 20px
+}
+
+.modal .p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.modal .card .card-block p {
+    line-height: 25px
+}
+
+.modal .m-b-10 {
+    margin-bottom: 10px
+}
+
+.modal .text-muted {
+    color: #919aa3 !important
+}
+
+.modal .b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.modal .f-w-600 {
+    font-weight: 600
+}
+
+.modal .f-w-800 {
+    font-weight: 600;
+    font-size: 20px
+}
+
+.modal .m-b-20 {
+    margin-bottom: 20px
+}
+
+.modal .m-t-40 {
+    margin-top: 20px
+}
+
+.modal .p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.modal .m-b-10 {
+    margin-bottom: 10px
+}
+
+.modal .m-t-40 {
+    margin-top: 20px
+}
+
+.modal .user-card-full .social-link li {
+    display: inline-block
+}
+
+.modal .user-card-full .social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+#essai:active, #essai:focus{
+    outline:none;
+}
